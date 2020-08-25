@@ -1,0 +1,9 @@
+FROM imagem 
+
+run comando
+
+add arquivo local o aquivo no cotenier
+
+expose porta
+
+cmd comando
