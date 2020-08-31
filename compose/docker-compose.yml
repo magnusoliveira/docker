@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  webapp:
+    build:
+     context: ./tom
+    container_name: teste
+    ports:
+      - "80:8080"
+    volumes:
+      - teste:/teste
+    deploy:
+      resources:
+        limits:
+          cpus: '1.50'
+          memory: 2G
+      reservations:
+          cpus: '1.0'
+          memory: 1.5G
+
+
+
+volumes:
+   teste:
