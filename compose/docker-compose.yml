@@ -13,7 +13,7 @@ services:
         limits:
           cpus: '1.50'
           memory: 2G
-      reservations:
+        reservations:
           cpus: '1.0'
           memory: 1.5G
 
