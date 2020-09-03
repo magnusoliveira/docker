@@ -16,6 +16,7 @@ services:
         reservations:
           cpus: '1.0'
           memory: 1.5G
+    restart: unless-stopped      
 
 
 
