@@ -1,3 +1,5 @@
+![](resources/image.png)
+
 # 01 exemplos de Images docker File ultilizando Tomcat
 
 ## Dockerfile
