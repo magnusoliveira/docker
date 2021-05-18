@@ -4,5 +4,6 @@
 Neste diretorio temos um imagem com Docker File e deployment compose
 
 ```bash
-$ kubectl create namespace jitsi-meet
+$ cd compose
+$ docker-compose up -d
 ```
